@@ -1,0 +1,8 @@
+1- insercoes nas tabelas
+2- exportar os jsons para seus respectivos arquivos
+3- se possivel os importar no dbcompass(se nao esperar chegar em casa)
+4- empacotamento
+5- documentação
+6- implementacao no java
+7- video
+8- send
