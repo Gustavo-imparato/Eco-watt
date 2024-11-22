@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "6740e053aa63fcb887a7a117"
+  },
+  "id_dispositivo": 5,
+  "nm_dispositivo": "Dispositivo E",
+  "local": "Sala 305",
+  "tipo": "Controle de temperatura",
+  "consumo_limite": 151,
+  "id_consumo": 5,
+  "id_alerta": 5
+},
+{
+  "_id": {
+    "$oid": "6740e053aa63fcb887a7a118"
+  },
+  "id_dispositivo": 6,
+  "nm_dispositivo": "Dispositivo F",
+  "local": "Sala 503",
+  "tipo": "Monitor central",
+  "consumo_limite": 450,
+  "id_consumo": 6,
+  "id_alerta": 6
+},
+{
+  "_id": {
+    "$oid": "6740e053aa63fcb887a7a119"
+  },
+  "id_dispositivo": 7,
+  "nm_dispositivo": "Dispositivo G",
+  "local": "Sala 101",
+  "tipo": "Sensor central",
+  "consumo_limite": 50,
+  "id_consumo": 7,
+  "id_alerta": 7
+},
+{
+  "_id": {
+    "$oid": "6740e053aa63fcb887a7a11a"
+  },
+  "id_dispositivo": 8,
+  "nm_dispositivo": "Dispositivo H",
+  "local": "Sala 003",
+  "tipo": "Servidor",
+  "consumo_limite": 600,
+  "id_consumo": 8,
+  "id_alerta": 8
+},
+{
+  "_id": {
+    "$oid": "6740e053aa63fcb887a7a11b"
+  },
+  "id_dispositivo": 9,
+  "nm_dispositivo": "Dispositivo I",
+  "local": "Sala 801",
+  "tipo": "Sensor de movimentacao",
+  "consumo_limite": 130,
+  "id_consumo": 9,
+  "id_alerta": 9
+},
+{
+  "_id": {
+    "$oid": "6740e053aa63fcb887a7a11c"
+  },
+  "id_dispositivo": 10,
+  "nm_dispositivo": "Dispositivo J",
+  "local": "Sala 909",
+  "tipo": "Servidor central",
+  "consumo_limite": 900,
+  "id_consumo": 10,
+  "id_alerta": 10
+},
+{
+  "_id": {
+    "$oid": "6740e053aa63fcb887a7a11d"
+  },
+  "id_dispositivo": 1,
+  "nm_dispositivo": "Dispositivo A",
+  "local": "Sala 101",
+  "tipo": "Sensor",
+  "consumo_limite": 100,
+  "id_consumo": 1,
+  "id_alerta": 1
+},
+{
+  "_id": {
+    "$oid": "6740e053aa63fcb887a7a11e"
+  },
+  "id_dispositivo": 2,
+  "nm_dispositivo": "Dispositivo B",
+  "local": "Sala 102",
+  "tipo": "Sensor",
+  "consumo_limite": 150,
+  "id_consumo": 2,
+  "id_alerta": 2
+},
+{
+  "_id": {
+    "$oid": "6740e053aa63fcb887a7a11f"
+  },
+  "id_dispositivo": 3,
+  "nm_dispositivo": "Dispositivo C",
+  "local": "Sala 103",
+  "tipo": "Monitor",
+  "consumo_limite": 200,
+  "id_consumo": 3,
+  "id_alerta": 3
+},
+{
+  "_id": {
+    "$oid": "6740e053aa63fcb887a7a120"
+  },
+  "id_dispositivo": 4,
+  "nm_dispositivo": "Dispositivo D",
+  "local": "Sala 104",
+  "tipo": "Controle",
+  "consumo_limite": 250,
+  "id_consumo": 4,
+  "id_alerta": 4
+}]

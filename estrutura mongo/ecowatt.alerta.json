@@ -1,0 +1,88 @@
+[{
+  "_id": {
+    "$oid": "673fb6a49e9edce2ec747d56"
+  },
+  "id_alerta": 1,
+  "mensagem": "Alerta de manutenção",
+  "data_mensagem": "2024-11-19 20:48:10"
+},
+{
+  "_id": {
+    "$oid": "673fb6a49e9edce2ec747d57"
+  },
+  "id_alerta": 2,
+  "mensagem": "Alerta excesso de energia",
+  "data_mensagem": "2024-11-19 20:48:10"
+},
+{
+  "_id": {
+    "$oid": "673fb6a49e9edce2ec747d58"
+  },
+  "id_alerta": 3,
+  "mensagem": "Alerta de aquecimento elevado",
+  "data_mensagem": "2024-11-19 20:48:10"
+},
+{
+  "_id": {
+    "$oid": "673fb6a49e9edce2ec747d59"
+  },
+  "id_alerta": 4,
+  "mensagem": "Alerta de falha no sistema",
+  "data_mensagem": "2024-11-19 20:48:10"
+},
+{
+  "_id": {
+    "$oid": "673fb6a49e9edce2ec747d5a"
+  },
+  "id_alerta": 5,
+  "mensagem": "Alerta de falha no dispositivo",
+  "data_mensagem": "2024-11-19 20:48:10"
+},
+{
+  "_id": {
+    "$oid": "673fb6a49e9edce2ec747d5b"
+  },
+  "id_alerta": 7,
+  "mensagem": "Alerta de falha no dispositivo",
+  "data_mensagem": "2024-11-21 10:25:17"
+},
+{
+  "_id": {
+    "$oid": "673fb6a49e9edce2ec747d5c"
+  },
+  "id_alerta": 8,
+  "mensagem": "Alerta de hiperaquecimento",
+  "data_mensagem": "2024-11-21 10:25:17"
+},
+{
+  "_id": {
+    "$oid": "673fb6a49e9edce2ec747d5d"
+  },
+  "id_alerta": 6,
+  "mensagem": "Alerta de falta de reparos",
+  "data_mensagem": "2024-11-21 10:25:17"
+},
+{
+  "_id": {
+    "$oid": "673fb6a49e9edce2ec747d5e"
+  },
+  "id_alerta": 9,
+  "mensagem": "Alerta de uso excessivo de energia",
+  "data_mensagem": "2024-11-21 10:25:17"
+},
+{
+  "_id": {
+    "$oid": "673fb6a49e9edce2ec747d5f"
+  },
+  "id_alerta": 10,
+  "mensagem": "Alerta de falha no resfriamento",
+  "data_mensagem": "2024-11-21 10:25:18"
+},
+{
+  "_id": {
+    "$oid": "673fb6a49e9edce2ec747d60"
+  },
+  "id_alerta": 11,
+  "mensagem": "Alerta de manutenção",
+  "data_mensagem": "2024-11-21 19:27:27"
+}]

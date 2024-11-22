@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6740e0a4aa63fcb887a7a144"
+  },
+  "id_usuario": 5,
+  "nm_usuario": "Dalinar Kholin",
+  "password": "senha012",
+  "email": "dalinar@email.com"
+},
+{
+  "_id": {
+    "$oid": "6740e0a4aa63fcb887a7a145"
+  },
+  "id_usuario": 6,
+  "nm_usuario": "Dom pedro i",
+  "password": "senha3442",
+  "email": "portuga@email.com"
+},
+{
+  "_id": {
+    "$oid": "6740e0a4aa63fcb887a7a146"
+  },
+  "id_usuario": 7,
+  "nm_usuario": "Barao de maua",
+  "password": "778833",
+  "email": "brasil@email.com"
+},
+{
+  "_id": {
+    "$oid": "6740e0a4aa63fcb887a7a147"
+  },
+  "id_usuario": 8,
+  "nm_usuario": "Ulyses grant",
+  "password": "senha012",
+  "email": "costa@email.com"
+},
+{
+  "_id": {
+    "$oid": "6740e0a4aa63fcb887a7a148"
+  },
+  "id_usuario": 9,
+  "nm_usuario": "Alfredo",
+  "password": "senha012",
+  "email": "pio@email.com"
+},
+{
+  "_id": {
+    "$oid": "6740e0a4aa63fcb887a7a149"
+  },
+  "id_usuario": 10,
+  "nm_usuario": "Bluetooth",
+  "password": "senha012",
+  "email": "dinamerca@email.com"
+},
+{
+  "_id": {
+    "$oid": "6740e0a4aa63fcb887a7a14a"
+  },
+  "id_usuario": 1,
+  "nm_usuario": "João Silva",
+  "password": "senha123",
+  "email": "joao.silva@email.com"
+},
+{
+  "_id": {
+    "$oid": "6740e0a4aa63fcb887a7a14b"
+  },
+  "id_usuario": 2,
+  "nm_usuario": "Maria Souza",
+  "password": "senha456",
+  "email": "maria.souza@email.com"
+},
+{
+  "_id": {
+    "$oid": "6740e0a4aa63fcb887a7a14c"
+  },
+  "id_usuario": 3,
+  "nm_usuario": "Carlos Pereira",
+  "password": "senha789",
+  "email": "carlos.pereira@email.com"
+},
+{
+  "_id": {
+    "$oid": "6740e0a4aa63fcb887a7a14d"
+  },
+  "id_usuario": 4,
+  "nm_usuario": "Ana Costa",
+  "password": "senha012",
+  "email": "ana.costa@email.com"
+}]

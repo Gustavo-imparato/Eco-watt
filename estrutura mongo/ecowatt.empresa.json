@@ -1,0 +1,130 @@
+[{
+  "_id": {
+    "$oid": "6740e07faa63fcb887a7a12d"
+  },
+  "id_empresa": 5,
+  "nm_empresa": "Delvale",
+  "cnpj": "22.334.455/0001-22",
+  "email": "contato@empresaE.com",
+  "id_dispositivo": 5,
+  "id_consumo": 5,
+  "id_alerta": 5,
+  "id_usuario": 5
+},
+{
+  "_id": {
+    "$oid": "6740e07faa63fcb887a7a12e"
+  },
+  "id_empresa": 6,
+  "nm_empresa": "Aurora",
+  "cnpj": "22.334.455/0001-22",
+  "email": "contato@empresaF.com",
+  "id_dispositivo": 6,
+  "id_consumo": 6,
+  "id_alerta": 6,
+  "id_usuario": 6
+},
+{
+  "_id": {
+    "$oid": "6740e07faa63fcb887a7a12f"
+  },
+  "id_empresa": 7,
+  "nm_empresa": "Fanta",
+  "cnpj": "22.334.455/0001-22",
+  "email": "contato@empresaG.com",
+  "id_dispositivo": 7,
+  "id_consumo": 7,
+  "id_alerta": 7,
+  "id_usuario": 7
+},
+{
+  "_id": {
+    "$oid": "6740e07faa63fcb887a7a130"
+  },
+  "id_empresa": 8,
+  "nm_empresa": "Sprite",
+  "cnpj": "22.334.455/0001-22",
+  "email": "contato@empresaH.com",
+  "id_dispositivo": 8,
+  "id_consumo": 8,
+  "id_alerta": 8,
+  "id_usuario": 8
+},
+{
+  "_id": {
+    "$oid": "6740e07faa63fcb887a7a131"
+  },
+  "id_empresa": 9,
+  "nm_empresa": "Guiness",
+  "cnpj": "22.334.455/0001-22",
+  "email": "contato@empresaI.com",
+  "id_dispositivo": 9,
+  "id_consumo": 9,
+  "id_alerta": 9,
+  "id_usuario": 9
+},
+{
+  "_id": {
+    "$oid": "6740e07faa63fcb887a7a132"
+  },
+  "id_empresa": 10,
+  "nm_empresa": "Spaten",
+  "cnpj": "22.334.455/0001-22",
+  "email": "contato@empresaJ.com",
+  "id_dispositivo": 10,
+  "id_consumo": 10,
+  "id_alerta": 10,
+  "id_usuario": 10
+},
+{
+  "_id": {
+    "$oid": "6740e07faa63fcb887a7a133"
+  },
+  "id_empresa": 1,
+  "nm_empresa": "Empresa A",
+  "cnpj": "12.345.678/0001-99",
+  "email": "contato@empresaA.com",
+  "id_dispositivo": 1,
+  "id_consumo": 1,
+  "id_alerta": 1,
+  "id_usuario": 1
+},
+{
+  "_id": {
+    "$oid": "6740e07faa63fcb887a7a134"
+  },
+  "id_empresa": 2,
+  "nm_empresa": "Empresa B",
+  "cnpj": "98.765.432/0001-00",
+  "email": "contato@empresaB.com",
+  "id_dispositivo": 2,
+  "id_consumo": 2,
+  "id_alerta": 2,
+  "id_usuario": 2
+},
+{
+  "_id": {
+    "$oid": "6740e07faa63fcb887a7a135"
+  },
+  "id_empresa": 3,
+  "nm_empresa": "Empresa C",
+  "cnpj": "11.223.344/0001-11",
+  "email": "contato@empresaC.com",
+  "id_dispositivo": 3,
+  "id_consumo": 3,
+  "id_alerta": 3,
+  "id_usuario": 3
+},
+{
+  "_id": {
+    "$oid": "6740e07faa63fcb887a7a136"
+  },
+  "id_empresa": 4,
+  "nm_empresa": "Empresa D",
+  "cnpj": "22.334.455/0001-22",
+  "email": "contato@empresaD.com",
+  "id_dispositivo": 4,
+  "id_consumo": 4,
+  "id_alerta": 4,
+  "id_usuario": 4
+}]

@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "6740e091aa63fcb887a7a139"
+  },
+  "id_relatorio": 6,
+  "data_geracao": "2024-11-17 00:00:00",
+  "consumo_total": 7000,
+  "consumo_medio": 300.9,
+  "alertas_ativos": 1,
+  "id_usuario": 1
+},
+{
+  "_id": {
+    "$oid": "6740e091aa63fcb887a7a13a"
+  },
+  "id_relatorio": 7,
+  "data_geracao": "2024-12-02 00:00:00",
+  "consumo_total": 1000,
+  "consumo_medio": 808.9,
+  "alertas_ativos": 9,
+  "id_usuario": 4
+},
+{
+  "_id": {
+    "$oid": "6740e091aa63fcb887a7a13b"
+  },
+  "id_relatorio": 8,
+  "data_geracao": "2024-12-21 00:00:00",
+  "consumo_total": 9000,
+  "consumo_medio": 10.9,
+  "alertas_ativos": 0,
+  "id_usuario": 1
+},
+{
+  "_id": {
+    "$oid": "6740e091aa63fcb887a7a13c"
+  },
+  "id_relatorio": 9,
+  "data_geracao": "2024-12-24 00:00:00",
+  "consumo_total": 2134.89,
+  "consumo_medio": 378.9,
+  "alertas_ativos": 2,
+  "id_usuario": 5
+},
+{
+  "_id": {
+    "$oid": "6740e091aa63fcb887a7a13d"
+  },
+  "id_relatorio": 10,
+  "data_geracao": "2024-12-27 00:00:00",
+  "consumo_total": 6788.98,
+  "consumo_medio": 467.9,
+  "alertas_ativos": 7,
+  "id_usuario": 2
+},
+{
+  "_id": {
+    "$oid": "6740e091aa63fcb887a7a13e"
+  },
+  "id_relatorio": 1,
+  "data_geracao": "2024-11-01 00:00:00",
+  "consumo_total": 1234.56,
+  "consumo_medio": 123.45,
+  "alertas_ativos": 2,
+  "id_usuario": 1
+},
+{
+  "_id": {
+    "$oid": "6740e091aa63fcb887a7a13f"
+  },
+  "id_relatorio": 2,
+  "data_geracao": "2024-11-10 00:00:00",
+  "consumo_total": 9876.54,
+  "consumo_medio": 987.65,
+  "alertas_ativos": 5,
+  "id_usuario": 2
+},
+{
+  "_id": {
+    "$oid": "6740e091aa63fcb887a7a140"
+  },
+  "id_relatorio": 3,
+  "data_geracao": "2024-11-1500:00:00",
+  "consumo_total": 4567.89,
+  "consumo_medio": 456.78,
+  "alertas_ativos": 1,
+  "id_usuario": 1
+},
+{
+  "_id": {
+    "$oid": "6740e091aa63fcb887a7a141"
+  },
+  "id_relatorio": 4,
+  "data_geracao": "2024-11-18 00:00:00",
+  "consumo_total": 3210.12,
+  "consumo_medio": 321.01,
+  "alertas_ativos": 3,
+  "id_usuario": 4
+},
+{
+  "_id": {
+    "$oid": "6740e091aa63fcb887a7a142"
+  },
+  "id_relatorio": 5,
+  "data_geracao": "2024-11-20 00:00:00",
+  "consumo_total": 6789,
+  "consumo_medio": 678.9,
+  "alertas_ativos": 4,
+  "id_usuario": 2
+}]
