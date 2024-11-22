@@ -273,7 +273,7 @@ EXEC exportar_database_json;
 
 
 
---function para validacao da tabela dispositivo
+--function para validacao da tabela consumo
 
 SET SERVEROUTPUT ON;
 CREATE OR REPLACE FUNCTION VALIDAR_CONSUMO(data_consumo_in DATE)
@@ -326,7 +326,7 @@ END;
 
 SELECT * FROM tb_consumo;
 
-
+--validacao para a tabela dispositivo
 SET SERVEROUTPUT ON;
 CREATE OR REPLACE FUNCTION validar_dispositivo(id_dispositivo_in INTEGER)
 RETURN BOOLEAN
@@ -383,55 +383,6 @@ BEGIN
     END IF;
 END;
 
---validacao para a tabela consumo
 
-SET SERVEROUTPUT ON;
-CREATE OR REPLACE FUNCTION VALIDAR_CONSUMO(data_consumo_in DATE)
-RETURN BOOLEAN
-IS
-    v_count INTEGER;
-    v_id_consumo INTEGER;
-    v_consumo NUMBER(10, 2);
-BEGIN
-    SELECT COUNT(*)
-    INTO v_count
-    FROM tb_consumo
-    WHERE data_consumo = data_consumo_in;
-
-    IF v_count = 0 THEN
-        RETURN FALSE;
-    ELSIF v_count > 1 THEN
-        RAISE_APPLICATION_ERROR(-20001, 'Mais de um consumo encontrado para a data informada.');
-    ELSE
-        SELECT id_consumo, consumo
-        INTO v_id_consumo, v_consumo
-        FROM tb_consumo
-        WHERE data_consumo = data_consumo_in;
-
-        DBMS_OUTPUT.PUT_LINE('ID Consumo: ' || v_id_consumo);
-        DBMS_OUTPUT.PUT_LINE('Data Consumo: ' || TO_CHAR(data_consumo_in, 'DD/MM/YYYY'));
-        DBMS_OUTPUT.PUT_LINE('Consumo: ' || TO_CHAR(v_consumo, '9999999.99') || ' kWh');
-
-        RETURN TRUE;
-    END IF;
-
-EXCEPTION
-    WHEN NO_DATA_FOUND THEN
-        DBMS_OUTPUT.PUT_LINE('Nenhum dado encontrado para a data informada.');
-        RETURN FALSE;
-    WHEN OTHERS THEN
-        DBMS_OUTPUT.PUT_LINE('Erro inesperado: ' || SQLERRM);
-        RETURN FALSE;
-END VALIDAR_CONSUMO;
-
-
-BEGIN
-    IF NOT VALIDAR_CONSUMO(TO_DATE('2024-11-21', 'YYYY-MM-DD')) THEN
-        DBMS_OUTPUT.PUT_LINE('Validação falhou para o consumo. ');
-        DBMS_OUTPUT.PUT_LINE('A data mencionada não está vinculada a nenhum consumo cadastrado.');
-    ELSE
-        DBMS_OUTPUT.PUT_LINE('Validação bem-sucedida para o consumo.');
-    END IF;
-END;
 
 
