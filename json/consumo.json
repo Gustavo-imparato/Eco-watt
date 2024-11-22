@@ -1,0 +1,12 @@
+[
+    {"id_consumo":5,"data_consumo":"2024-11-17 00:00:00","consumo":190},
+    {"id_consumo":6,"data_consumo":"2024-11-20 00:00:00","consumo":160},
+    {"id_consumo":7,"data_consumo":"2024-11-21 00:00:00","consumo":80},
+    {"id_consumo":8,"data_consumo":"2024-12-01 00:00:00","consumo":183.4},
+    {"id_consumo":9,"data_consumo":"2024-12-05 00:00:00","consumo":176.06},
+    {"id_consumo":10,"data_consumo":"2024-12-10 00:00:00","consumo":180},
+    {"id_consumo":1,"data_consumo":"2024-11-13 00:00:00","consumo":150.75},
+    {"id_consumo":2,"data_consumo":"2024-11-13 00:00:00","consumo":200.5},
+    {"id_consumo":3,"data_consumo":"2024-11-14 00:00:00","consumo":175.25},
+    {"id_consumo":4,"data_consumo":"2024-11-14 00:00:00","consumo":180}
+]
