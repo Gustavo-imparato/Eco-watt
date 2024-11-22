@@ -69,7 +69,7 @@ BEGIN
     inserir_dispositivo(7, 'Dispositivo G', 'Sala 101', 'Sensor central', 50.00, 7, 7);
     inserir_dispositivo(8, 'Dispositivo H', 'Sala 003', 'Servidor', 600.00, 8, 8);
     inserir_dispositivo(9, 'Dispositivo I', 'Sala 801', 'Sensor de movimentacao', 130.00, 9, 9);
-    inserir_dispositivo(4, 'Dispositivo J', 'Sala 909', 'Servidor central', 900.00, 10, 10);
+    inserir_dispositivo(10, 'Dispositivo J', 'Sala 909', 'Servidor central', 900.00, 10, 10);
 END;
 
 CREATE OR REPLACE PROCEDURE inserir_usuario(
@@ -146,10 +146,10 @@ BEGIN
     inserir_relatorio(4, TO_DATE('2024-11-18', 'YYYY-MM-DD'), 3210.12, 321.01, 3, 4);
     inserir_relatorio(5, TO_DATE('2024-11-20', 'YYYY-MM-DD'), 6789.00, 678.90, 4, 2);
     inserir_relatorio(6, TO_DATE('2024-11-17', 'YYYY-MM-DD'), 7000.00, 300.90, 1, 1);
-    inserir_relatorio(5, TO_DATE('2024-12-02', 'YYYY-MM-DD'), 1000.00, 808.90, 9, 4);
-    inserir_relatorio(5, TO_DATE('2024-12-21', 'YYYY-MM-DD'), 9000.00, 10.90, 0, 1);
-    inserir_relatorio(5, TO_DATE('2024-12-24', 'YYYY-MM-DD'), 2134.89, 378.90, 2, 5);
-    inserir_relatorio(5, TO_DATE('2024-12-27', 'YYYY-MM-DD'), 6788.98, 467.90, 7, 2);
+    inserir_relatorio(7, TO_DATE('2024-12-02', 'YYYY-MM-DD'), 1000.00, 808.90, 9, 4);
+    inserir_relatorio(8, TO_DATE('2024-12-21', 'YYYY-MM-DD'), 9000.00, 10.90, 0, 1);
+    inserir_relatorio(9, TO_DATE('2024-12-24', 'YYYY-MM-DD'), 2134.89, 378.90, 2, 5);
+    inserir_relatorio(10, TO_DATE('2024-12-27', 'YYYY-MM-DD'), 6788.98, 467.90, 7, 2);
 
 END;
 
